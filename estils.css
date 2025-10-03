@@ -1,0 +1,50 @@
+p {color: green;}
+#title {
+    font-size: 24px;
+text-decoration: underline;
+}
+
+.text-important { 
+    color: rgb(255, 0, 0); 
+    font-weight: bold;
+}
+
+.vermell {
+    color:rgb(255, 0, 0);
+}
+
+.gran {
+    font-size: 24px;
+}
+.negreta {
+    font-weight: bold;
+}
+.subrallat {
+    text-decoration: underline;
+}
+
+ul > li:first-child {
+  color: rgb(255, 0, 0);
+}
+
+ul > li:last-child {
+  color: rgb(0, 0, 255);
+}
+
+ul > li {
+  color: rgb(0, 255, 0);
+}
+
+a:hover { 
+    color: rgb(0, 255, 170);
+}
+
+p::before {
+    content: "👉 ";
+    color:rgb(0, 0, 255)
+}
+
+p::after {
+    content: "✔";
+    color: rgb(0, 201, 0);
+}
